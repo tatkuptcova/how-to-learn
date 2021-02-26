@@ -7,69 +7,65 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f2f2f2;
   }
 
 
+
 .header {
-  display: block;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  margin-left: 64px;
+  display: flex;
+    }
 
-}
-
-.logo__header {
-  position: absolute;
+.logo__place__header {
   height:32px;
   width: 183px;
-  margin-left: 64px;
-  margin-top: 30px;
-}
+  padding-left: 64px;
+  padding-top: 30px;
+    }
 
 .header__title {
   width: 730px;
-  padding-left: 64px;
-  position:absolute;
+  padding-right: 64px;
   font-size: 102px;
   height: row 96px;
   font: bold;
-  flex-direction: column;
- }
+  flex-wrap: wrap;
+  justify-content: flex-start;
+    }
 
 .header__subtitlev {
   width: 388px;
-  margin-left: 64px;
-  margin-bottom: 30px;
   display: flex;
   font-size: 18px;
   height: row 25px;
   font: normal;
-  flex-direction: column;
-}
+  }
 
 .header__link {
  position: absolute;
  width: 388px;
- margin-bottom: 0;
 }
 
 .header__main-illustration {
-  position: absolute;
-  margin-right: 0;
-  margin-bottom: 0;
   width: 765px;
   height: 608px;
-
+  padding-bottom: 0px;
+  padding-right: 0px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  position: absolute;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  padding-top: 64px;
+  padding-right: 0%;
+  margin-top: 64px;
+
 }
 
 /* и элемента с модификатором вида ключ-значение */
