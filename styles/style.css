@@ -1,0 +1,81 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+
+
+.header {
+  display: block;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  margin-left: 64px;
+
+}
+
+.logo__header {
+  position: absolute;
+  height:32px;
+  width: 183px;
+  margin-left: 64px;
+  margin-top: 30px;
+}
+
+.header__title {
+  width: 730px;
+  padding-left: 64px;
+  position:absolute;
+  font-size: 102px;
+  height: row 96px;
+  font: bold;
+  flex-direction: column;
+ }
+
+.header__subtitlev {
+  width: 388px;
+  margin-left: 64px;
+  margin-bottom: 30px;
+  display: flex;
+  font-size: 18px;
+  height: row 25px;
+  font: normal;
+  flex-direction: column;
+}
+
+.header__link {
+ position: absolute;
+ width: 388px;
+ margin-bottom: 0;
+}
+
+.header__main-illustration {
+  position: absolute;
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 765px;
+  height: 608px;
+
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  padding-top: 64px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  background-color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
