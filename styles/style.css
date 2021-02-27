@@ -74,7 +74,7 @@
 }
 
 .content {
-  display: block;
+  display: flex;
 }
 
 .description {
@@ -89,16 +89,16 @@
 
 .two-columns {
  width: 175px;
- float: left;
- text-align: start;
+
 }
 
 .two-columns__brief {
   line-height: 1.2;
   font-size: 18px;
   font-style: normal;
-  text-align: left;
+  text-align: start;
   color: #2f80ed;
+  margin-left: 0px;
 }
 
 .main__text {
