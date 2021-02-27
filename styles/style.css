@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center;
   color:black;
-  }
+}
 
 .logo__place__header {
   position: absolute;
@@ -27,14 +27,14 @@
   left: 64px;
   height: 32px;
   width: 183px;
-  }
+}
 
 .header__title {
   width: 730px;
-  left: 64px;
+  margin-left: 64px;
   font-size: 102px;
   line-height: 96px;
-  font-style: bold;
+  font-weight: bold;
   text-align: left;
 }
 
@@ -50,14 +50,10 @@
 }
 
 .header__link {
-  position: absolute;
-  width: 388px;
-  bottom: 30px;
-  left: 64px;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
-  position: absolute;
   width: 765px;
   height: 608px;
   bottom: 0px;
@@ -105,7 +101,14 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
 }
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
