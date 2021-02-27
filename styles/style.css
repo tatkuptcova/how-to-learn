@@ -52,6 +52,7 @@
   font-style: normal;
   bottom: 30px;
   left: 64px;
+  top: 300px;
 }
 
 .header__link {
@@ -59,7 +60,7 @@
  width: 388px;
  bottom: 30px;
  left: 64px;
-
+ top: 300px;
 }
 
 .header__main-illustration {
