@@ -31,11 +31,12 @@
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  left: 64px;
   font-size: 102px;
   line-height: 96px;
   font-style: bold;
-  }
+  text-align: left;
+}
 
 .header__subtitle {
   position: absolute;
@@ -46,17 +47,17 @@
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
- }
+}
 
 .header__link {
- position: absolute;
- width: 388px;
- bottom: 30px;
- left: 64px;
+  position: absolute;
+  width: 388px;
+  bottom: 30px;
+  left: 64px;
 }
 
 .header__main-illustration {
-  positioon: absolute;
+  position: absolute;
   width: 765px;
   height: 608px;
   bottom: 0px;
@@ -65,7 +66,7 @@
 }
 
 .header__square-pic {
-  position:absolute;
+  position: absolute;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -81,15 +82,15 @@
   margin-top: 100px;
   margin-bottom: 100px;
   min-height: auto;
-  display:flex;
-  width: 80%;
-  min-width: 784px;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
 }
 
 .two-columns {
- width: 175px;
-
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
 }
 
 .two-columns__brief {
@@ -98,12 +99,12 @@
   font-style: normal;
   text-align: start;
   color: #2f80ed;
-  margin-left: 0px;
+  width: 175px;
 }
 
-.main__text {
-
-
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
