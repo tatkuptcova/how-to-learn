@@ -80,17 +80,29 @@
 .description {
   margin-top: 100px;
   margin-bottom: 100px;
-  display: flex;
-  justify-content:space-between;
   min-height: auto;
-
-  }
+  display:flex;
+  width: 80%;
+  min-width: 784px;
+  justify-content: space-between;
+}
 
 .two-columns {
-  width: 80%;
+ width: 175px;
+ float: left;
+ text-align: start;
 }
 
 .two-columns__brief {
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  color: #2f80ed;
+}
+
+.main__text {
+
 
 }
 /* и элемента с модификатором вида ключ-значение */
