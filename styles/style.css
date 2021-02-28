@@ -16,10 +16,8 @@
   height: 100vh;
   position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  overflow: hidden;
 }
 
 .logo__place__header {
@@ -42,7 +40,7 @@
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-
+  z-index: 1;
 }
 
 .header__subtitle {
@@ -55,6 +53,7 @@
   font-size: 18px;
   font-style: normal;
   margin: 0;
+  z-index: 1;
 }
 
 .header__link {
@@ -205,6 +204,7 @@
   font-size: 36px;
   font-style: normal;
   z-index: 1;
+  color: #2f80ed;
 }
 
 .backround-feyman {
@@ -225,6 +225,7 @@
   padding-right: 0;
   overflow-x: hidden;
   overflow-y: hidden;
+  z-index: 0;
 }
 
 .selection-title__theme__dark  {
@@ -239,6 +240,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .section-subtitle__theme__dark {
@@ -253,6 +255,7 @@
   font-size: 24px;
   font-style: normal;
   text-align: center;
+  z-index: 2;
 }
 
 .table__theme__dark {
@@ -263,7 +266,7 @@
   margin-bottom: 90px;
   margin-top: 0px;
   flex-flow: row wrap;
-  z-index: 1;
+  z-index: 2;
 }
 
 .table__cell_theme_dark {
@@ -272,6 +275,19 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.table__heading {
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
 .table__text {
   line-height: 1.2;
   font-size: 18px;
@@ -280,15 +296,76 @@
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  z-index: 2;
 }
 
 .kaufman__triangle {
   position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
   right: -210px;
-  background-size: 877px 877px;
   height: 877px;
   width: 877px;
   top: 0px;
-  z-index: 0;
+  z-index: 1;
 }
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #000000;
+  color: #f2f2f2;
+}
+
+.footer__columns {
+  position: relative;
+  min-height: 350px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer__column__copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.logo {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column__heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.footer__list-item {
+  display: block;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link {
+  color: #f2f2f2;
+}
+
