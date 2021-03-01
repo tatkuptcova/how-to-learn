@@ -237,7 +237,7 @@
   color: #2f80ed;
 }
 
-.feyman_backround {
+.feyman__backround {
   position: absolute;
   width: 867px;
   height: 637px;
@@ -356,7 +356,7 @@
   margin-left: auto;
 }
 
-.footer__column__copyright {
+.footer__column_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -386,7 +386,7 @@
   box-sizing: border-box;
 }
 
-.footer_column-heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -397,7 +397,7 @@
   margin-right: 0px;
 }
 
-.footer_columns-links {
+.footer__column-links {
  margin-top: 0px;
  margin-bottom: 16px;
  margin-left: 0px;
@@ -411,8 +411,10 @@
   font-weight: normal;
 }
 
-.footer_column-link {
+.footer__column-link {
   color: #f2f2f2;
+  text-decoration: none
+  ;
 }
 
 .footer__social-icon {
