@@ -284,7 +284,7 @@
   z-index: 2;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   position: relative;
   width: 60%;
   margin-top: 0px;
@@ -359,7 +359,7 @@
   margin-left: auto;
 }
 
-.footer__column_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
