@@ -1,0 +1,10 @@
+.digits {
+  margin-bottom: 100px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

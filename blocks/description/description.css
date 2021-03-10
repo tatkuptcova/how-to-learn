@@ -1,0 +1,7 @@
+.description {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+}
