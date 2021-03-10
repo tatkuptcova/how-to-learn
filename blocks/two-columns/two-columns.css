@@ -1,7 +1,10 @@
-
 .two-columns {
   display: flex;
   flex-direction: row;
   width: 80%;
   justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
