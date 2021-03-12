@@ -6,4 +6,5 @@
   grid-column-gap: 100px;
   justify-content: center;
   grid-row-gap: 60px;
+  list-style: none;
 }
